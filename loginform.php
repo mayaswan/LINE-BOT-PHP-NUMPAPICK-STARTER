@@ -12,10 +12,10 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">@BaaNPark</a>
+      <a class="navbar-brand" href="index.php">@BaaNPark</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="index.php">Home</a></li>
     </ul>
     
     <ul class="nav navbar-nav navbar-right">
@@ -49,7 +49,7 @@
 
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br><br>
       <button type="submit" class="btn btn-default">Login</button>
-      <button type="submit" class="btn btn-default"><a href="#">Cancle</a></button>
+      <button type="submit" class="btn btn-default" href="index.php">Cancle</button>
     </div>
     
   </form>
