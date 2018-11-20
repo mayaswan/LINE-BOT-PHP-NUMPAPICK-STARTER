@@ -51,7 +51,9 @@
       
     
   </form>
+    <div class="form-group">
      <button type="reset" href="index.php" class="btn btn-default">Cancle</button>
+      </div>
 </div>
 
 </body>
