@@ -13,7 +13,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">@BaaNPark.Com</a>
+      <a class="navbar-brand" href="#">@BaaNPark</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
@@ -44,10 +44,9 @@
 </nav>
 
 <div class="container">
-  <h3>Navbar Forms</h3>
-  <p>Use the .navbar-form class to vertically align form elements (same padding as links) inside the navbar.</p>
-  <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
-  <p>The .input-group-btn class attaches a button next to an input field. This is often used as a search bar:</p>
+  <h3>เกี่ยวกับเรา</h3>
+  <p>สวัสดีคัรบทุกท่าน เรายินดีนำเสนอ สถานที่ท่องเที่ยวสุดบรรยากาศ</p>
+  <p>ปาร์ครักแอ็ค นะคัรบ</p>
 </div>
 
 </body>
