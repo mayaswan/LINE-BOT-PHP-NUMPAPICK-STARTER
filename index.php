@@ -17,8 +17,8 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.php">หน้าหลัก</a></li>
+      <li><a href="#">บริการ</a></li>
       <li><a href="#"></a></li>
-      <li><a href="#">Page 2</a></li>
     </ul>
     
     <ul class="nav navbar-nav navbar-right">
