@@ -1,5 +1,3 @@
-<?php
-echo "Hello LINE BOT";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,11 +22,17 @@ header {
     color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
 nav {
-    float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     background: #ccc;
     padding: 20px;
 }
@@ -39,19 +43,13 @@ nav ul {
     padding: 0;
 }
 
+/* Style the content */
 article {
-    float: left;
-    padding: 20px;
-    width: 70%;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
     background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section:after {
-    content: "";
-    display: table;
-    clear: both;
+    padding: 10px;
 }
 
 /* Style the footer */
@@ -62,20 +60,21 @@ footer {
     color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
-    nav, article {
-        width: 100%;
-        height: auto;
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
     }
 }
 </style>
 </head>
 <body>
 
-<h2>CSS Layout Float</h2>
+<h2>CSS Layout Flexbox</h2>
 <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 eand earlier versions.</p>
 
 <header>
   <h2>Cities</h2>
@@ -91,10 +90,10 @@ footer {
   </nav>
   
   <article>
-      <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-
-    </article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
 </section>
 
 <footer>
