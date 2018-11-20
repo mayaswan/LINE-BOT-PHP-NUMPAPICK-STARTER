@@ -16,8 +16,8 @@
       <a class="navbar-brand" href="index.php">@BaaNPark</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="#">Page 1</a></li>
+      <li class="active"><a href="index.php">หน้าหลัก</a></li>
+      <li><a href="#"></a></li>
       <li><a href="#">Page 2</a></li>
     </ul>
     
