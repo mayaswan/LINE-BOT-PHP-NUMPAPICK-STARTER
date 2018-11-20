@@ -25,7 +25,7 @@
           
         </ul>
       </li>
-      <li><a href="#"></a></li>
+      <li><a href="#">สถานที่</a></li>
     </ul>
     
     <ul class="nav navbar-nav navbar-right">
