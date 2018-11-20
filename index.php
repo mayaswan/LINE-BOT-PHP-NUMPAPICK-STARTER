@@ -16,8 +16,15 @@
       <a class="navbar-brand" href="index.php">@BaaNPark</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">หน้าหลัก</a></li>
-      <li><a href="#">บริการ</a></li>
+      <li class="active"><a href="index.php">หน้าหลัก </a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">บริการ <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"> - อาหาร</a></li>
+          <li><a href="#"> - นำเที่ยว</a></li>
+          <li><a href="#"> - ที่พัก</a></li>
+          
+        </ul>
+      </li>
       <li><a href="#"></a></li>
     </ul>
     
