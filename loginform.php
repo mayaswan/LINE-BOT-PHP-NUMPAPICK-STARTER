@@ -47,13 +47,9 @@
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"><br><br>
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br><br>
       <button type="submit" class="btn btn-default">Login</button>
-    </div>
-      
-    
-  </form>
-    <div class="form-group">
-     <button type="reset" href="index.php" class="btn btn-default">Cancle</button>
-      </div>
+       <a href="index.php" class="btn btn-default" role="button">Cancle</a>
+    </div>   
+  </form>   
 </div>
 
 </body>
