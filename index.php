@@ -20,8 +20,8 @@
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">บริการ <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#"> - อาหาร</a></li>
-          <li><a href="#"> - นำเที่ยว</a></li>
-          <li><a href="#"> - ที่พัก</a></li>
+          <li><a href="#"> - พักผ่อน</a></li>
+          <li><a href="#"> - การท่องเที่ยว</a></li>
           
         </ul>
       </li>
