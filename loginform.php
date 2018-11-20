@@ -48,11 +48,11 @@
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"><br><br>
 
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br><br>
-      <button type="submit" class="btn btn-default">Login</button>
-      <button type="submit" href="index.php" class="btn btn-default">Cancle</button>
     </div>
     
   </form>
+      <button type="submit" class="btn btn-default">Login</button>
+      <button type="submit" href="index.php" class="btn btn-default">Cancle</button>
 </div>
 
 </body>
