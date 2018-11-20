@@ -48,10 +48,10 @@
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br><br>
       <button type="submit" class="btn btn-default">Login</button>
     </div>
-      <button type="reset" href="index.php" class="btn btn-default">Cancle</button>
+      
     
   </form>
-     
+     <button type="reset" href="index.php" class="btn btn-default">Cancle</button>
 </div>
 
 </body>
