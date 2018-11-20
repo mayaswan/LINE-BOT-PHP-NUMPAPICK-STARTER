@@ -1,5 +1,5 @@
 <?php
-echo "Hello LINE BOT";
+echo "Hello LINE BOT";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
