@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><img src="<i class="glyphicon glyphicon-cloud" style="font-size:24px;"></i>" />@BaanPakr</title>
+  <title><img src="http://legalizacija.me/wp-content/uploads/2018/03/homeblue.png" />@BaanPakr</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
