@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>@BaanPakr</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,17 +11,16 @@
 <body>
 
 <div class="container">
-  <h2>Form control: input</h2>
-  <p>The form below contains two input elements; one of type text and one of type password:</p>
-  <form>
+  <h2>Login to Account</h2>
+  <form class="form-inline" action="/action_page.php">
     <div class="form-group">
-      <label for="usr">Name:</label>
-      <input type="text" class="form-control" id="usr">
+ 
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"><br><br>
+
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <button type="submit" class="btn btn-default">Login</button>
     </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
-    </div>
+    
   </form>
 </div>
 
