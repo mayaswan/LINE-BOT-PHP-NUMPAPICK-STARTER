@@ -49,7 +49,7 @@
 
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"><br><br>
       <button type="submit" class="btn btn-default">Login</button>
-      <button type="submit" class="btn btn-default">Cancle</button>
+      <button type="submit" class="btn btn-default"><a href="#">Cancle</a></button>
     </div>
     
   </form>
