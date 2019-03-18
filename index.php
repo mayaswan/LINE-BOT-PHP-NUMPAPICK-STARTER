@@ -15,9 +15,7 @@
     apiKey: "AIzaSyBQPtYMWRKqohvVp3Rx_utju2qotiYJxjQ",
     authDomain: "webapp-bf8f5.firebaseapp.com",
     databaseURL: "https://webapp-bf8f5.firebaseio.com",
-    projectId: "webapp-bf8f5",
     storageBucket: "webapp-bf8f5.appspot.com",
-    messagingSenderId: "995463764163"
   };
   firebase.initializeApp(config);
   var bigOne = document.getElemrntById('bigOne');
