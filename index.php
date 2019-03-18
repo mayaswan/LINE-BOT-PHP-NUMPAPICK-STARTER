@@ -5,7 +5,7 @@
   <meta charset="utf-8"> 
 </head>
 <body>
-
+<?
 <h1 id="bigOne"></h1>
 
 <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
@@ -22,7 +22,7 @@
   var dbRef = firebase.database().ref().child('text');
   dbRef.on('value',snap => bigOne.innerText = snap.val());
 </script>
-
+?>
 
 </body>
 </html>
